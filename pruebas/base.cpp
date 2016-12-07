@@ -15,6 +15,7 @@ int main(){
 	decimal /=2;
 	}while (decimal>0);
 
+
 	printf ("\n");
 	return EXIT_SUCCESS;
 }
