@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[]){
 
-	char palabra1 [] = {"columna"};
+	char palabra1 [] = {"columna" "\n senpai" "\n neko" "\n pikachu"};
 	char palabra2 [] = {"diccionario"};
 	char palabra3 [] = {"portatil"};
 	char palabra4 [] = {"jarra"};
