@@ -45,8 +45,6 @@ int main(int argc, char *argv[]){
 
 	primos.num = (unsigned *) malloc (10000 * sizeof(unsigned));
 
-	push(&primos,3);
-
 	pthread_t hilo, hilo2;
 
 	pthread_create(&hilo,NULL, numeros_primos,NULL);
