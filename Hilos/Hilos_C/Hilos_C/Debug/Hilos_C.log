@@ -1,0 +1,3 @@
+﻿  Hilos_C.cpp
+c:\users\arroyopg\source\repos\hilos_c\hilos_c\hilos_c.cpp(30): warning C4477: 'printf' : la cadena de formato '%i' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'int *'
+  Hilos_C.vcxproj -> C:\Users\arroyopg\source\repos\Hilos_C\Debug\Hilos_C.exe
