@@ -24,7 +24,7 @@ int main(int argc, char *argv[]){
 	pthread_create(&hilo2,NULL,&sumando,NULL);
 
 	pthread_join(hilo,NULL);
-	pthread_join(hilo,NULL);
+	pthread_join(hilo2,NULL);
 
 
 	printf("numero %i", suma);
