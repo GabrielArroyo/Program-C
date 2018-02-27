@@ -46,7 +46,7 @@ int main(int argc, char *argv[]){
 	primos.num = (unsigned *) malloc (10000 * sizeof(unsigned));
 
 	pthread_t hilo, hilo2;
-
+	//Aunque se ejecuten los dos hilos, debido al algoritmo, , suele funcionar solo el primero, ya que introduce los primos antes
 	pthread_create(&hilo,NULL, numeros_primos,NULL);
 	pthread_create(&hilo2,NULL, numeros_primos,NULL);
 
