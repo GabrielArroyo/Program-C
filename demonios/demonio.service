@@ -1,0 +1,17 @@
+#!/bin/bash
+[Unit]
+Description = Hola, Soy un demonio muy majo
+After=multi-user.tarjet
+
+[Service]
+Type=simple
+ExceStart=~/work/Program-C/pruebas/demonios/hola.sh
+User=gabi
+WorkingDirectory=/~/work/Program-C/pruebas/demonios
+Restart=on-failure
+StandardOutput=syslog
+StandarError=syslog
+
+
+[Install]
+WantedBy=multi-user.target
